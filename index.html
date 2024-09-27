@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato de Tenis de Mesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-titulo">
+        <h1>Campeonato 2024</h1>
+        <h3>Participa y aprovehca esta oportunidad</h3>
+    </div>
+    <div class="cuerpo">
+        <div class="contenedor-info">
+            <h2>Informacion sobre el torneo</h2>
+            <p class="parrafo-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero impedit iusto hic tenetur fugit, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quidem placeat doloremque rem recusandae. Quidem, quae voluptatum ipsa impedit iusto tenetur ducimus cum at illo explicabo quod similique quibusdam dolor. praesentium minima iure laudantium ab amet magnam quam assumenda sint! Mollitia facere quibusdam veniam nostrum odio!</p>
+            <ul class="lista-info">
+                <h2>Categorias</h2>
+                <li class="item-info">Principiante Amateur</li>
+                <li class="item-info">Intermedio</li>
+                <li class="item-info">Avanzado</li>
+            </ul>
+        </div>
+        <div class="contenedor-requisitos">
+            <h2>Requisitos para Participar en el Torneo</h2>
+            <ul class="lista-req">
+                <li class="item-req">Los participantes deben tener al menos <strong>16 años</strong> de edad.</li>
+                <li class="item-req">Cada participante debe inscribirse en una sola categoría: <strong>Principiante</strong>, <strong>Intermedio</strong>, o <strong>Avanzado</strong>.</li>
+                <li class="item-req">El plazo máximo de inscripción es hasta el <strong>5 de noviembre de 2024</strong>.</li>
+                <li class="item-req">Los participantes deben asistir al menos <strong>15 minutos antes</strong> de su partido programado.</li>
+                <li class="item-req">No se permite el uso de dispositivos electrónicos durante los partidos.</li>
+                <li class="item-req">Cualquier comportamiento antideportivo resultará en descalificación inmediata.</li>
+                <li class="item-req">El pago de la inscripción debe ser realizado antes del inicio del torneo (detalles en el correo de confirmación).</li>
+            </ul>
+        </div>
+        <div class="contenedor-form">
+            <h2>Formulario de Registro</h2>
+            <form action="registro.php" method="post">    
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <label for="">Apellidos</label>
+                <input type="text" name="apellido" placeholder="Apellidos" required>
+                <label for="">Rut</label>
+                <input type="text" name="rut" placeholder="12345678-9" required>
+                <label for="">Correo</label>
+                <input type="email" name="email" placeholder="ejemplo@gmail.com" required>
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="0">Selecciona</option>
+                    <option value="principiante">Principiante</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                </select>
+                <input class="botones" id="registrar" type="submit" value="Registrar">
+                <input class="botones" id="restablecer" type="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

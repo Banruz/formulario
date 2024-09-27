@@ -1,0 +1,98 @@
+body{
+    background-color: #3f3f9f;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+.contenedor-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#696ab3, #4649ff) ;
+    height: 25vh;
+}
+h1{
+    font-size: 2.8rem;
+    color: #000;
+}
+.contenedor-titulo h3{
+    font-size: 1.5em;
+    color: #222;
+}
+/*cuerpo*/
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0 0 0;
+}
+.contenedor-info{
+    width: 80%;
+    background-color: #b493f8;
+    box-shadow: 5px 5px 10px #226;
+    border-radius: 15px;
+    padding: 17px 13px;
+}
+.parrafo-info{
+    padding: 0 0 10px 10px;
+}
+.contenedor-requisitos{
+    width: 70%;
+    background-color: #b493f8;
+    box-shadow: 5px 5px 10px #226;
+    border-radius: 15px;
+    padding: 17px 12px;
+}
+.item-req{
+    padding: 1px 0;
+}
+/*Formulario*/
+.contenedor-form{
+    width: 100%;
+    background-color: #49f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 50px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-form h2{
+    font-size: 30px;
+    padding: 10px 0;
+}
+label{
+    font-weight: 600;
+    margin: 2px 0 2px 5px;
+}
+input{
+    margin: 1px 0;
+}
+.botones{
+    background-color: #69d;
+    color: #222;
+    font-size: 15px;
+    padding: 3px 5px;
+    margin: 5px 0;  
+    font-weight: 600;
+    border: 1px solid #444a;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+#registrar{
+    margin-top: 15px;
+}
+/*php*/
+.contendor-php{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
